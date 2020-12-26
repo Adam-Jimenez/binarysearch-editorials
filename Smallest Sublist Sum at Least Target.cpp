@@ -1,8 +1,8 @@
-"""
+/*
 Smallest Sublist Sum at Least Target
 
 O(N^2) with prefix sums is good enough if you write it in C++ :). Alex's answer using what I think to be a monoqueue of prefix sums is too mind-bending for me.
-"""
+*/
 #include "solution.hpp"
 #include <bits/stdc++.h>
 using namespace std;
