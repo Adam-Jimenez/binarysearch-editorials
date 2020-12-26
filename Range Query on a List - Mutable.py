@@ -36,3 +36,4 @@ class MutableRangeSum:
         diff = val - self.tree[m]
         while m:
             self.tree[m] += diff
+            m //= 2
